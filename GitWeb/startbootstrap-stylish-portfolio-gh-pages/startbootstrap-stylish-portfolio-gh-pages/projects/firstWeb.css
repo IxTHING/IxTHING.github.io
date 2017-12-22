@@ -5,6 +5,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     float: none;
+    text-align: center;
 }
 
 ul {
@@ -13,10 +14,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-width: 10px;
+    border-bottom-color: black;
 }
 
 li {
-    float: left;
+    text-align: center;
     border-right: 1px solid #bbb;
 }
 
@@ -26,6 +29,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Helvetica, sans-serif;
 }
 
 li a:hover {
@@ -33,7 +37,7 @@ li a:hover {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: red;
 }
 
 li:last-child {
