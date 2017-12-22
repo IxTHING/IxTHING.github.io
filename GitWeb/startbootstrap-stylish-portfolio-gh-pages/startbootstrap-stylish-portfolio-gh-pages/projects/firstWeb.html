@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="firstWeb.css">
+    <script src = "challange2.js"></script>
+    <script src = "jsonChallange.js"></script>
+    <script src = "garage.js"></script>
+    <script src = "rectangles.js"></script>
+</head>
+    <body id="body1">
+        <main>
+            <nav>
+                <ul>
+                    <li><a class="active" href="../index.html">Home</a></li>
+                    <li><a class="active" href="../index.html#about">About</a></li>
+                    <li><a class="active" href="#">Projects</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h1>Projects</h1>
+            <p>Below will include a list of projects</p>
+
+            <h1 id="headerId">Projects</h1>
+            <p id="p1">Below will include a list of projects</p>
+            <input type="button" onclick="sayHello()" value="Say Hello" />
+            
+            <input type="button" onclick="squareNum(2)" value="Square Root" />
+
+            <input type="button" onclick="addNum(2,4,6)" value="Add 3 Nm's" />
+
+            <input type="button" onclick="createObj()" value="Create Obj" />
+
+            <input type="button" onclick="addObj()" value="Add age" />
+
+            <input type="button" onclick="addNumV2()" value="AddV2" />
+
+            <input type="text" id = "testt" name="number1" value="Number1">
+
+            <br/>
+
+            <input type="button" onclick="printString()" value="printString" />  
+
+            <br/>
+            
+            <input type="button" onclick="fstArray()" value="arrayz" />
+
+            <br/>
+            
+            <input type="button" onclick="oneToTen()" value="1 To 10" />
+
+            <br/>
+            
+            <input type="button" onclick="fizzBuzz()" value="fizzBuzzConsole" />
+            
+            <input type="button" onclick="threeDevide()" value="devideByThreeConsole" />
+
+            <input type="button" onclick="tripleCounter()" value="tripleCounter" />
+
+            <br/>
+
+            <input type="button" onclick="dom()" value="Add Paragraph" />
+            <input type="button" onclick="domRemove()" value="Remove Paragraph" />
+            <input type="button" onclick="domChange()" value="Change Paragraph" />
+
+            <br/><br/>
+
+            <h2>JSON</h2>
+
+            <br/>
+
+            <div id="superHeroes">
+
+            </div>
+
+            <input type="button" onclick="json()" value="JSON" />
+            <input type="button" onclick="searchHeroes()" value="searchHero" />
+            <input type="button" onclick="remove()" value="remove" />
+            <input type="text" id = "heroBox" name="heroName" value="nameHere">
+
+            <br/>
+            <br/>
+
+            <h2>Garage</h2>
+
+            <br/>
+
+            <div id="garageDiv">
+                
+            </div>
+
+            <input type="button" onclick="addCarElement()" value="CheckIn" />
+            <input type="text" id = "makeText" name="Make" value="Make">
+            <input type="text" id = "regTextIn" name="Reg" value="Reg">
+            <input type="text" id = "colourText" name="Colour" value="Colour">
+            <br/>
+            <input type="button" onclick="removeCarElement()" value="CheckOut" />
+            <input type="text" id = "regTextOut" name="Reg" value="Reg">
+            <br/>
+            <input type="button" onclick="" value="Bill" />
+            <input type="text" id = "regTextBill" name="Reg" value="Reg">
+            <br/>
+            <input type="button" onclick="currentContents()" value="Contents" />
+            <br/><br/>
+
+            <h4>Faults</h4>
+
+            <br/>
+
+            <input type="button" onclick="addFault()" value="Add Fault" />
+            
+            <select id="faultDropDown">
+              <option value="tyre">Tyre</option>
+              <option value="window">Window</option>
+              <option value="engine">Engine</option>
+              <option value="gear">Gear</option>
+            </select>
+
+            <input type="text" id = "regTextFault" name="Reg" value="Reg">
+              
+            <br/>
+
+            <input type="button" onclick="removeFault()" value="Remove Fault" />
+
+            <select id="removeFaultDropDown">
+                <option value="tyre">Tyre</option>
+                <option value="window">Window</option>
+                <option value="engine">Engine</option>
+                <option value="gear">Gear</option>
+            </select>
+
+            <input type="text" id = "removeRegTextFault" name="Reg" value="Reg">
+
+            <br/>
+            <br/>
+
+            <h2>Rectangles</h2>
+
+            <br/>
+
+            <textarea id="textRect" rows="10" cols="50">
+                
+                </textarea>
+
+            <input type="button" onclick="rectangle()" value="Print Shape" />
+        </main>
+    </body>
+</html>
